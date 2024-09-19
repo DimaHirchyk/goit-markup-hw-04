@@ -135,12 +135,16 @@ flex-direction: column;
 margin-left: auto;
 margin-right: auto;
 padding: 188px 0;
-max-width: 1440px;
-background-image:url('../images/people-office.jpg'), linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
-background-blend-mode: overlay;
-background-size: cover;
+background-image: url('../images/people-office.jpg'), linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
 background-repeat: no-repeat;
+max-width: 1440px;
 background-position: center;
+background-size: cover;
+background-blend-mode: overlay;
+
+}
+
+.title-container {
 
 }
 
@@ -419,23 +423,22 @@ letter-spacing: 0.02em;
 /* footer */
 
 .footer-container {display: block;
-    margin-right: 120px;
+margin-right: 120px;
     margin-left: 140px;
 }
 
 .last-cont {
     display: flex;
     align-items: baseline;
+    
 }
 
 .last-bg {
     background-color: #2e2f42;
     padding: 100px 0 ;
     display: flex;
-        justify-content: space-between;
-        /* Відстань між блоками */
-        align-items: center;
-        
+    justify-content: space-between;
+    align-items: center;
 }
 
 .text-footer {color: #F4F4FD;
