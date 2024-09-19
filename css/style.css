@@ -401,6 +401,11 @@ letter-spacing: 0.02em;
 .last-bg {
     background-color: #2e2f42;
     padding: 100px 0 ;
+    display: flex;
+        justify-content: space-between;
+        /* Відстань між блоками */
+        align-items: center;
+        
 }
 
 .text-footer {color: #F4F4FD;
