@@ -428,9 +428,7 @@ margin-right: 120px;
 .last-bg {
     background-color: #2e2f42;
     padding: 100px 0 ;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
 }
 
 .text-footer {color: #F4F4FD;
@@ -456,18 +454,10 @@ margin-right: 120px;
         margin-bottom: 16px;
 }
 
-.footer-social {
-    align-items: center;
-    justify-content: center;
-    display: block;
-    max-width: 208px;
-    margin: auto;
-}
-
 .footer-social-list-icon {
     margin-top: 8px;
-        display: flex;
-        gap: 16px;
+    display: flex;
+    gap: 16px;
 }
 
 .footer-list-icon {
